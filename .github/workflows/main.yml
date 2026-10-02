@@ -62,7 +62,7 @@ jobs:
         with:
           context: ./backend/
           push: true
-          tags: katrin7828-docker-hub/taski_backend:latest
+          tags: katrin7828/taski_backend:latest
 
   frontend_tests:
     runs-on: ubuntu-latest
